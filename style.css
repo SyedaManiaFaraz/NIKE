@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.men {
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style: none; 
+    display: inline-block;
+} 
+ul > li >a{
+    justify-content: space-between;
+    margin: 0 0.9rem;
+    color: black;
+    font-size: 20px ;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    padding: 10px;
+}
+
+.bar{
+    color: white;
+    display: none;
+    font-size: 1.5rem;
+}
+.header>img{
+    margin-left: 90px;
+}
+.btn{
+    color: white;
+    height: 31px;
+    width: 75px;
+    padding: 6px , 16px , 6px , 16px;
+    gap: 10px;
+    background: #D01C28;
+    margin-right: 90px;
+}
+
+.btn1{
+    color: white;
+    height: 31px;
+    width: 99px;
+    top: 21px;
+    left: 1286px;
+    padding: 6px , 16px , 6px , 16px;
+    gap: 10px;
+    background: #D01C28;
+    margin-left: 220px;
+}
+.btn2{
+    color: black;
+    width: 99px;
+    height: 31px;
+    margin-left: 30px;
+}
+.text>h1{
+    font-size: 100px;
+    margin-left: 220px;
+}
+.text>p{
+    margin-left: 220px;
+    margin-top: 0;
+}
+
+.icons{
+    margin-left: 220px;  
+}
+
+.para>p{ 
+    margin-top: 5px;
+    margin-left: 220px;
+    font-size: 13px;
+    color: black;
+}
+
+.shoe>img{
+    border: none;
+    float: left;
+    margin-left: 750px; 
+    margin-top: -550px; 
+    filter: drop-shadow(10px 10px 10px gray);
+    margin-right: 50px;
+} 
+
+@media (max-width:600px){
+    .btn{
+        display: none;
+    }
+    .header>img{
+        margin-left: 5px;
+    }
+    .bar{
+        display: block;
+        color: black;
+    }
+    .men{
+        display: none;
+    }
+   
+}
+
+@media (max-width:600px){
+    .btn1{
+        color: white;
+        height: 25px;
+        width: 99px;
+        top: 21px;
+        left: 1286px;
+        padding: 6px , 16px , 6px , 16px;
+        gap: 10px;
+        background: #D01C28;
+        margin-left: 50px !important;
+    }
+    .btn2{
+        color: black;
+        width: 99px;
+        height: 31px;
+        margin-left: 20px;
+    }
+    .text>h1{
+        font-size: 50px !important;
+        margin-left: 50px !important;
+    }
+    .text>p{
+        margin-left: 50px !important;
+        margin-top: 0;
+    }
+    
+    .icons{
+        margin-left: 50px !important;  
+    }
+    
+    .para>p{ 
+        margin-top: 5px;
+        margin-left: 50px !important;
+        font-size: 10px;
+        color: black;
+    }
+    
+    .shoe>img{
+        height: 250px;
+        width: 300px;
+        border: none;
+        float: left;
+        margin-left: 1px !important; 
+        margin-top: 10px; 
+        filter: drop-shadow(10px 10px 10px gray);
+        margin-right: 50px;
+    } 
+}
+@media (max-width:1024px){
+    .btn1{
+        color: white;
+        height: 31px;
+        width: 99px;
+        top: 21px;
+        left: 1286px;
+        padding: 6px , 16px , 6px , 16px;
+        gap: 10px;
+        background: #D01C28;
+        margin-left: 150px;
+    }
+    .btn2{
+        color: black;
+        width: 99px;
+        height: 31px;
+        margin-left: 40px;
+    }
+    .text>h1{
+        font-size: 90px;
+        margin-left: 150px;
+    }
+    .text>p{
+        margin-left: 150px;
+        margin-top: 0;
+    }
+    
+    .icons{
+        margin-left: 150px;  
+    }
+    
+    .para>p{ 
+        margin-top: 5px;
+        margin-left: 150px;
+        font-size: 10px;
+        color: black;
+    }
+    
+    .shoe>img{
+        height: 550px;
+        width: 600px;
+        border: none;
+        float: left;
+        margin-left: 120px ; 
+        margin-top: 10px; 
+        filter: drop-shadow(10px 10px 10px gray);
+        margin-right: 50px;
+    } 
+}
